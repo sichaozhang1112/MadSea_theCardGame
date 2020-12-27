@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7824833064288907835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3177428114703405357}
+  - component: {fileID: 8460711395726072042}
+  m_Layer: 0
+  m_Name: MadCreature_Sky_level6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3177428114703405357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824833064288907835}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6342312, y: 0.3159646, z: -0.36035156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8460711395726072042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824833064288907835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e870589a56a3959468b73b1266895269, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: "\u661F\u7A7A\u6050\u9B54"
+  costType: 1
+  cost: 5
+  detail: "[\u4F24\u5BB3:2] [\u51FB\u8D25:+2 Gold]\u88AB\u8150\u5316\u7684\u661F\u7A7A\u751F\u7269"
+  flagExile: 1
+  targetCharge: 4
+  attack: 2
+  score: 0
+  gold: 2
+  exileField: 0
+  exileHand: 0

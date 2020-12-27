@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3165704816083015700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6179351369985023787}
+  - component: {fileID: 849573930222971944}
+  m_Layer: 0
+  m_Name: DriftingBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6179351369985023787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3165704816083015700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.946291, y: 5.8662558, z: -65.73047}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &849573930222971944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3165704816083015700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307109fd2153b724a906bf8b9e422d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: "\u677F\u6761\u7BB1"
+  costType: 1
+  cost: 2
+  detail: "\u82B1\u8D39Power\u6253\u635E\uFF0C\u968F\u673A\u83B7\u5F97\u7269\u54C1\u81F3\u624B\u724C"
+  flagExile: 1
+  targetCurse: 0
+  cursedCard: {fileID: 0}
+  goldAcquire: 0
+  attackAcquire: 0
+  exileHand: 0
+  exileField: 0
+  discardHand: 0
+  heal: 0
+  draw: 0
+  score: 0
+  oneUse: 0
+  rewards:
+  - {fileID: 7507021858991702973, guid: cafcecc577d99bc43a956f4558e66935, type: 3}
+  - {fileID: 2795121936570577207, guid: 6530ea58ae96cc241bd184f43a724abe, type: 3}
+  - {fileID: 207624326065132453, guid: 7f672af28a6049f4993cb40f599c4d77, type: 3}
+  - {fileID: 6523891825531963170, guid: 2f78235b07798c24691e958252ccef81, type: 3}
+  - {fileID: 2527410928528556218, guid: ba17aac3ff25afd4b8827478b6451383, type: 3}
+  - {fileID: 2187801852272823032, guid: aca33e0a3686a874b9c33d1d7c82f9f1, type: 3}
+  - {fileID: 3675228543469875065, guid: 6e51168da5a729249838a550b5dd9347, type: 3}
+  - {fileID: 294470279253052355, guid: 513ff897c16958249a91a111c70e09c4, type: 3}
+  - {fileID: 2112544633105054716, guid: ddf6c5654eade7e4aa045221700de2c0, type: 3}
+  - {fileID: 6502793264519338419, guid: ac71362bbc4b58044a68a889ad28479e, type: 3}
+  - {fileID: 6255251536643812411, guid: 08f7facf5a5a9f5488cc6ce084e72851, type: 3}
+  props: 140000001e0000001e0000001e00000014000000140000000a0000000a000000050000000200000001000000

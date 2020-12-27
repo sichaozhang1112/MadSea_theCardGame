@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6488476415873644271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1910837770233992697}
+  - component: {fileID: 2396080626671610467}
+  m_Layer: 0
+  m_Name: moonCrab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1910837770233992697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6488476415873644271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6342312, y: 0.3159646, z: -0.36035156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2396080626671610467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6488476415873644271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62808477a432e94697a5f51ecb6bd04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: "\u6708\u6E38\u87F9"
+  costType: 0
+  cost: 5
+  detail: "+2 Power, \u62BD\u4E00\u5F20\u724C"
+  flagExile: 1
+  targetCurse: 5
+  cursedCard: {fileID: 6976423557103623990, guid: 3029872b3b5aed94e8802e69423496d6,
+    type: 3}
+  goldAcquire: 0
+  attackAcquire: 2
+  exileHand: 0
+  exileField: 0
+  discardHand: 0
+  heal: 0
+  draw: 1
+  score: 0
+  oneUse: 0
+  shouldHaveHand: 0

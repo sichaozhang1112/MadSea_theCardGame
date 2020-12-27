@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7624730314528333382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2981209149314612560}
+  - component: {fileID: 1340770439333151434}
+  m_Layer: 0
+  m_Name: starJelly
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2981209149314612560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624730314528333382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6342312, y: 0.3159646, z: -0.36035156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1340770439333151434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624730314528333382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62808477a432e94697a5f51ecb6bd04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: "\u661F\u4E91\u6C34\u6BCD"
+  costType: 0
+  cost: 4
+  detail: "+1 Gold, \u62BD\u4E00\u5F20\u724C"
+  flagExile: 1
+  targetCurse: 4
+  cursedCard: {fileID: 3188426711869182675, guid: af289422a9aed7a4faf15e530753b848,
+    type: 3}
+  goldAcquire: 1
+  attackAcquire: 0
+  exileHand: 0
+  exileField: 0
+  discardHand: 0
+  heal: 0
+  draw: 1
+  score: 0
+  oneUse: 0
+  shouldHaveHand: 0

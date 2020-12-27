@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4943846405919488042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4229920780620988181}
+  - component: {fileID: 7257708167711968278}
+  m_Layer: 0
+  m_Name: FishingSpot_Gold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4229920780620988181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4943846405919488042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.946291, y: 5.8662558, z: -65.73047}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7257708167711968278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4943846405919488042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307109fd2153b724a906bf8b9e422d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: "\u95EA\u4EAE\u9C7C\u70B9"
+  costType: 0
+  cost: 3
+  detail: "\u82B1\u8D39Gold\u6355\u635E\uFF0C\u968F\u673A\u83B7\u5F97\u9C7C\u7C7B\u81F3\u624B\u724C\uFF0C\u83B7\u5F97\u7A00\u6709\u9C7C\u7684\u597D\u673A\u4F1A"
+  flagExile: 1
+  targetCurse: 5
+  cursedCard: {fileID: 6897107538987150078, guid: 72465693b90a12e4a9f68351d1e5c76c,
+    type: 3}
+  goldAcquire: 0
+  attackAcquire: 0
+  exileHand: 0
+  exileField: 0
+  discardHand: 0
+  heal: 0
+  draw: 0
+  score: 0
+  oneUse: 0
+  shouldHaveHand: 0
+  rewards:
+  - {fileID: 7507021858991702973, guid: cafcecc577d99bc43a956f4558e66935, type: 3}
+  - {fileID: 7914497434081071129, guid: bf2874a52aac8624dad5dbe2d719bd65, type: 3}
+  - {fileID: 88165456503725263, guid: 31f324a47f0decf4992fa2e0bbb94dcc, type: 3}
+  - {fileID: 6720606422138892588, guid: 4e19012e6a2a55f4c9bc9062c7ad02b9, type: 3}
+  - {fileID: 4094376786788737919, guid: 87508a38a79730844b732235f48f4213, type: 3}
+  - {fileID: 8464641469367515370, guid: 0ab5ce46533eb8545bd86c195a2e3573, type: 3}
+  - {fileID: 4814353283484714252, guid: 88703d4a0212df0448a29701a29f6db1, type: 3}
+  - {fileID: 5217365302744596635, guid: 552cc5009169e6c48aea1707fa3b6654, type: 3}
+  - {fileID: 4688028304427934094, guid: 5778acf721c6c794d91174fa4cea21cf, type: 3}
+  props: 0a0000000a0000001e0000001e0000000f0000000a000000050000000a00000005000000

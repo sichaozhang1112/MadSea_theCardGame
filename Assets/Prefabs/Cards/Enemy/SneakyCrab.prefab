@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4393223658247359592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8969138130120257406}
+  - component: {fileID: 2669163032208008889}
+  m_Layer: 0
+  m_Name: SneakyCrab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8969138130120257406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4393223658247359592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6342312, y: 0.3159646, z: -0.36035156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2669163032208008889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4393223658247359592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e870589a56a3959468b73b1266895269, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: "\u5E7D\u7075\u87F9"
+  costType: 1
+  cost: 1
+  detail: "[\u4F24\u5BB3:3] [\u65E0\u6CD5\u88AB\u653E\u9010] \u8106\u5F31\u4F46\u81F4\u547D\u3002\u4F60\u8BE5\u4E0D\u4F1A\u6070\u597D\u6CA1\u6709\u6C34\u624B\u6765\u5BF9\u4ED8\u4ED6\u5427\u5427"
+  flagExile: 0
+  targetCharge: 2
+  attack: 3
+  score: 2
+  gold: 0
+  exileField: 0
+  exileHand: 0
