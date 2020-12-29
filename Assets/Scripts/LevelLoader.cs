@@ -62,11 +62,11 @@ public class LevelLoader : MonoBehaviour
                          "生命值：" + PlayerPrefs.GetInt("Life").ToString() + "\n";
         if (level >= 3)
         {
-            txtDetail.text += "双倍腐化！\n";
+            txtDetail.text += "深海霸主可能提前！\n双倍腐化！\n";
         }
         if (level >= 5)
         {
-            txtDetail.text += "五倍腐化！\n 敌人更加敏捷！\n";
+            txtDetail.text += "深海霸主可能提前！\n五倍腐化！\n 敌人更加敏捷！\n";
         }
     }
     // Start is called before the first frame update

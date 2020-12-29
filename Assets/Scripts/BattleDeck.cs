@@ -28,16 +28,33 @@ public class BattleDeck : MonoBehaviour
     }
     public void Shuffle()
     {
-        Random ran = new Random();
         int count = cards.Count;
+        int index_seaLoad = 0;
+        int index;
+        Card tmp;
 
-        for (int i = 0; i < count; i++)
+        for (int i = 1; i < count; i++)
         {
-            int index = Random.Range(i, count - 1);
-            Card tmp = cards[index];
+            index = Random.Range(i, count - 1);
+            tmp = cards[index];
             cards[index] = cards[i];
             cards[i] = tmp;
         }
+
+        if (PlayerPrefs.GetInt("Difficult") >= 3)
+        {
+            index = Random.Range(0, 80);
+        }else if (PlayerPrefs.GetInt("Difficult") >= 2)
+        {
+            index = Random.Range(30, count);
+        }
+        else
+        {
+            index = Random.Range(50, count);
+        }
+        tmp = cards[index];
+        cards[index] = cards[index_seaLoad];
+        cards[index_seaLoad] = tmp;
     }
 
     public void Init()

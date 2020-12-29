@@ -46,7 +46,7 @@ MonoBehaviour:
   cardName: "\u6D77\u661F"
   costType: 0
   cost: 2
-  detail: "[\u6D88\u8017\u54C1] \u62BD\u4E09\u5F20\u724C\uFF0C\u5F03\u4E24\u5F20"
+  detail: "[\u6D88\u8017\u54C1] \u62BD\u56DB\u5F20\u724C\uFF0C\u5F03\u4E24\u5F20"
   flagExile: 1
   targetCurse: 0
   cursedCard: {fileID: 0}
@@ -56,5 +56,7 @@ MonoBehaviour:
   exileField: 0
   discardHand: 2
   heal: 0
-  draw: 3
+  draw: 4
+  score: 0
   oneUse: 1
+  shouldHaveHand: 0

@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e870589a56a3959468b73b1266895269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardName: "\u65E0\u8A00\u7684\u8150\u5C71"
+  cardName: "\u98D8\u6D6E\u5C38\u5806"
   costType: 1
   cost: 8
   detail: "[\u4F24\u5BB3:2] [\u51FB\u8D25:+4 Gold]\u5F3A\u5927\u7684\u661F\u7A7A\u7075\u9B42\u4E5F\u4F1A\u88AB\u8150\u5316"
@@ -51,6 +51,7 @@ MonoBehaviour:
   targetCharge: 5
   attack: 2
   score: 0
-  gold: 4
+  goldAcquire: 0
+  attackAcquire: 0
   exileField: 0
   exileHand: 0

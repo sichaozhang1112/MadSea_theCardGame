@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4572754635756830939
+--- !u!1 &4005590388456441576
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9221870253604676557}
-  - component: {fileID: 4917530930242886743}
+  - component: {fileID: 8582080795747673598}
+  - component: {fileID: 5538745238530251364}
   m_Layer: 0
-  m_Name: saleMan
+  m_Name: batMan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9221870253604676557
+--- !u!4 &8582080795747673598
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4572754635756830939}
+  m_GameObject: {fileID: 4005590388456441576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.6342312, y: 0.3159646, z: -0.36035156}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,30 +31,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4917530930242886743
+--- !u!114 &5538745238530251364
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4572754635756830939}
+  m_GameObject: {fileID: 4005590388456441576}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e62808477a432e94697a5f51ecb6bd04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardName: "\u5546\u4EBA"
+  cardName: "\u8759\u8760\u4FA0"
   costType: 0
-  cost: 1
-  detail: +1 Gold
+  cost: 8
+  detail: "+4 Gold \u5F03\u4E24\u5F20\u724C"
   flagExile: 1
-  targetCurse: 0
-  cursedCard: {fileID: 0}
-  goldAcquire: 1
-  attackAcquire: 0
+  targetCurse: 7
+  cursedCard: {fileID: 6359751510896436247, guid: ecfeacb3640409b4c9133ef51f7289f2,
+    type: 3}
+  goldAcquire: 0
+  attackAcquire: 4
   exileHand: 0
   exileField: 0
-  discardHand: 0
+  discardHand: 2
   heal: 0
   draw: 0
   score: 0

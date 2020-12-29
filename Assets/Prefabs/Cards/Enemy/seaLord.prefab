@@ -46,7 +46,7 @@ MonoBehaviour:
   cardName: "\u6D77\u6D0B\u9738\u4E3B"
   costType: 1
   cost: 10
-  detail: "[\u4F24\u5BB3:4] [\u65E0\u6CD5\u88AB\u653E\u9010] \u606D\u559C\u4F60\uFF0C\u62BD\u5230\u4E86boss"
+  detail: "[\u4F24\u5BB3:4] [\u65E0\u6CD5\u88AB\u653E\u9010] \u606D\u559C\u4F60\u62BD\u5230\u4E86boss"
   flagExile: 0
   targetCharge: 6
   attack: 4

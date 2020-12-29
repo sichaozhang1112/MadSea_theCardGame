@@ -49,7 +49,7 @@ MonoBehaviour:
   detail: "+3 Power, \u62BD\u4E00\u5F20\u724C"
   flagExile: 1
   targetCurse: 7
-  cursedCard: {fileID: 1919555209958677909, guid: 20fff94ee5d65974493e31e41ef423cc,
+  cursedCard: {fileID: 6689622813006658467, guid: 83c06452201851f4a85c3adc3728cc9c,
     type: 3}
   goldAcquire: 0
   attackAcquire: 3

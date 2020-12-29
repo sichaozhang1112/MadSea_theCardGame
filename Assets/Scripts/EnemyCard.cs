@@ -7,7 +7,8 @@ public class EnemyCard : Card
     [SerializeField] int targetCharge;
     [SerializeField] int attack;
     [SerializeField] int score;
-    [SerializeField] int gold;
+    [SerializeField] int goldAcquire;
+    [SerializeField] int attackAcquire;
     [SerializeField] int exileField;
     [SerializeField] int exileHand;
 
@@ -30,7 +31,8 @@ public class EnemyCard : Card
     {
         MainManager.instance.GetVoidPile().AddCard(this);
         MainManager.instance.ScoreChange(score);
-        MainManager.instance.AddGold(gold);
+        MainManager.instance.AddGold(goldAcquire);
+        MainManager.instance.AddAttack(attackAcquire);
         if(exileField>0 || exileHand > 0)
         {
             MainManager.instance.StartExile(exileField, exileHand);

@@ -60,7 +60,7 @@ public class Hand : UICardsPile
         Card playedOne = cards[index];
         DiscardPile dp = MainManager.instance.GetDiscardPile();
         dp.AddCard(playedOne);
-        cards.Remove(playedOne);
+        cards.RemoveAt(index);
     }
 
 

@@ -182,7 +182,7 @@ public class MainManager : MonoBehaviour
                 {
                     if (pileTag == "Hand" && discardHand > 0)
                     {
-                        Card clickedCard = battleField.GetCard(index);
+                        Card clickedCard = hand.GetCard(index);
                         hand.DiscardCard(index);
                         discardHand--;
                     }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5395352203520478689}
   - component: {fileID: 8152670152911172219}
   m_Layer: 0
-  m_Name: storeKeeper
+  m_Name: cautiousBagMan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   cardName: "\u8C28\u614E\u80CC\u5305\u5BA2"
   costType: 0
   cost: 4
-  detail: "\u62BD\u56DB\u5F20\u5361\uFF0C\u4E22\u5F03\u4E24\u5F20\u624B\u724C"
+  detail: "\u62BD\u4E09\u5F20\u5361\uFF0C\u4E22\u5F03\u4E24\u5F20\u624B\u724C"
   flagExile: 1
   targetCurse: 4
   cursedCard: {fileID: 5294109054281826570, guid: 6999bc36b7d1c284e82cf20abbfcbed9,
@@ -60,3 +60,4 @@ MonoBehaviour:
   draw: 3
   score: 0
   oneUse: 0
+  shouldHaveHand: 0

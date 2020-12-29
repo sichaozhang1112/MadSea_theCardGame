@@ -51,8 +51,8 @@ MonoBehaviour:
   targetCurse: 3
   cursedCard: {fileID: 6947535333148080564, guid: 36642eede1c640e4bb975c62cc610dcf,
     type: 3}
-  goldAcquire: 3
-  attackAcquire: 0
+  goldAcquire: 0
+  attackAcquire: 3
   exileHand: 0
   exileField: 0
   discardHand: 1
